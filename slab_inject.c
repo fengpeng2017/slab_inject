@@ -2,10 +2,6 @@
  * SLAB injection module.
  *
  * Author: Maxim Menshchikov <MaximMenshchikov@gmail.com>
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License version 2 as
- * published by the Free Software Foundation.
  */
 #include <linux/module.h>
 #include <linux/kernel.h>
@@ -244,4 +240,4 @@ module_init(slab_inject_init);
 module_exit(slab_inject_exit);
 
 MODULE_AUTHOR("Maxim Menshchikov <MaximMenshchikov@gmail.com>");
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("MIT");
